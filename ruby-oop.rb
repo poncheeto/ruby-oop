@@ -28,3 +28,11 @@ class Person
     @job = job
   end
 end
+
+###################################################################
+
+module MyLibrary
+  FAVE_BOOK = "Harry Potter"
+end
+
+puts Math::PI # scope resolution operator
