@@ -15,5 +15,17 @@ class Dog
   def id
     @id_number = 12345
   end
+
+end
+
+###################################################################
+
+class Person
+  attr_reader :name
+  attr_writer :job
   
+  def initialize(name, job)
+    @name = name
+    @job = job
+  end
 end
