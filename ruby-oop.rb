@@ -21,8 +21,7 @@ end
 ###################################################################
 
 class Person
-  attr_reader :name
-  attr_writer :job
+  attr_accessor :name, :job
   
   def initialize(name, job)
     @name = name
