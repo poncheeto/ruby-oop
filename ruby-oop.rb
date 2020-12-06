@@ -229,3 +229,5 @@ class Account
   end
 
 end
+
+checking_account = Account.new("Poncho", 2_000_000)
